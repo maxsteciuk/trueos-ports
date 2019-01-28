@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	kdev-python
-DISTVERSION=	5.3.0
+DISTVERSION=	5.3.1
 PORTREVISION=	1
 CATEGORIES=	devel kde
 MASTER_SITES=	KDE/stable/kdevelop/${DISTVERSION}/src

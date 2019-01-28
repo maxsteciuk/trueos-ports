@@ -33,8 +33,6 @@
     SUBDIR += aria2
     SUBDIR += aria2fe
     SUBDIR += asql
-    SUBDIR += asterisk-stat
-    SUBDIR += atutor
     SUBDIR += august
     SUBDIR += awffull
     SUBDIR += aws
@@ -79,18 +77,15 @@
     SUBDIR += chems
     SUBDIR += cherokee
     SUBDIR += choqok
-    SUBDIR += choqok-kde4
     SUBDIR += chpasswd
     SUBDIR += chromium
     SUBDIR += ckeditor
     SUBDIR += cl-lml
     SUBDIR += cl-lml-sbcl
-    SUBDIR += claroline
     SUBDIR += clearsilver
     SUBDIR += clearsilver-python
     SUBDIR += cliqz
     SUBDIR += closure-compiler
-    SUBDIR += cmsmadesimple
     SUBDIR += cntlm
     SUBDIR += codeigniter
     SUBDIR += coppermine
@@ -120,7 +115,6 @@
     SUBDIR += dojo-shrinksafe
     SUBDIR += dokuwiki
     SUBDIR += domoticz
-    SUBDIR += dotproject
     SUBDIR += drood
     SUBDIR += drraw
     SUBDIR += drupal7
@@ -147,7 +141,6 @@
     SUBDIR += elixir-webassembly
     SUBDIR += emacs-w3m
     SUBDIR += encode-explorer
-    SUBDIR += entrans
     SUBDIR += ephemera
     SUBDIR += epiphany
     SUBDIR += erlang-cowboy
@@ -176,7 +169,6 @@
     SUBDIR += flickcurl
     SUBDIR += flood
     SUBDIR += flot
-    SUBDIR += fluxbb
     SUBDIR += fnord
     SUBDIR += formication
     SUBDIR += foswiki
@@ -192,8 +184,8 @@
     SUBDIR += g-gcl
     SUBDIR += gaeutilities
     SUBDIR += gallery2
-    SUBDIR += gallery3
     SUBDIR += gatling
+    SUBDIR += gauche-makiki
     SUBDIR += gecko-mediaplayer
     SUBDIR += geckodriver
     SUBDIR += geeknote
@@ -337,16 +329,12 @@
     SUBDIR += kannel
     SUBDIR += kannel-sqlbox
     SUBDIR += kcgi
-    SUBDIR += kdewebdev-kde4
     SUBDIR += kf5-kdewebkit
     SUBDIR += kf5-khtml
     SUBDIR += kf5-kjs
     SUBDIR += kf5-kjsembed
     SUBDIR += kohana
-    SUBDIR += kpartsplugin
-    SUBDIR += kplaylist
     SUBDIR += kurly
-    SUBDIR += kwebkitpart
     SUBDIR += larbin
     SUBDIR += libapreq2
     SUBDIR += libdom
@@ -365,7 +353,6 @@
     SUBDIR += lightsquid
     SUBDIR += lighttpd
     SUBDIR += lighttpd-mod_h264_streaming
-    SUBDIR += limesurvey
     SUBDIR += linkcheck
     SUBDIR += linkchecker
     SUBDIR += linklint
@@ -386,8 +373,6 @@
     SUBDIR += lynx-current
     SUBDIR += madsonic
     SUBDIR += madsonic-standalone
-    SUBDIR += magento
-    SUBDIR += mahara
     SUBDIR += man2web
     SUBDIR += mathjax
     SUBDIR += mathopd
@@ -397,6 +382,7 @@
     SUBDIR += mediawiki127
     SUBDIR += mediawiki130
     SUBDIR += mediawiki131
+    SUBDIR += mediawiki132
     SUBDIR += mergelog
     SUBDIR += mgstat
     SUBDIR += mhonarc
@@ -449,7 +435,6 @@
     SUBDIR += mod_gnutls
     SUBDIR += mod_gzip2
     SUBDIR += mod_h264_streaming
-    SUBDIR += mod_http2-devel
     SUBDIR += mod_jk
     SUBDIR += mod_layout22
     SUBDIR += mod_limitipconn2
@@ -462,7 +447,6 @@
     SUBDIR += mod_mpm_itk
     SUBDIR += mod_pagespeed
     SUBDIR += mod_perl2
-    SUBDIR += mod_php56
     SUBDIR += mod_php71
     SUBDIR += mod_php72
     SUBDIR += mod_php73
@@ -493,7 +477,6 @@
     SUBDIR += mongoose
     SUBDIR += mongrel2
     SUBDIR += moodle31
-    SUBDIR += moodle33
     SUBDIR += moodle34
     SUBDIR += moodle35
     SUBDIR += moodle36
@@ -502,13 +485,11 @@
     SUBDIR += multiwatch
     SUBDIR += mybb
     SUBDIR += myfaces
-    SUBDIR += mysar
     SUBDIR += mysqlphp2postgres
     SUBDIR += mythplugin-mythweb
     SUBDIR += nanoblogger
     SUBDIR += nanoblogger-extra
     SUBDIR += neon
-    SUBDIR += netoffice
     SUBDIR += netrik
     SUBDIR += netstiff
     SUBDIR += netsurf
@@ -524,11 +505,12 @@
     SUBDIR += nginx-full
     SUBDIR += nginx-lite
     SUBDIR += nginx-naxsi
+    SUBDIR += nginx-prometheus-exporter
     SUBDIR += nibbleblog
     SUBDIR += node
+    SUBDIR += node10
     SUBDIR += node6
     SUBDIR += node8
-    SUBDIR += node10
     SUBDIR += nostromo
     SUBDIR += novnc
     SUBDIR += novnc-websockify
@@ -557,12 +539,12 @@
     SUBDIR += nuvolaplayer-yandex-music
     SUBDIR += nuvolaplayer-youtube
     SUBDIR += obhttpd
+    SUBDIR += onionbalance
     SUBDIR += onionshare
     SUBDIR += opencart
     SUBDIR += opera
     SUBDIR += opera-linuxplugins
     SUBDIR += orangehrm
-    SUBDIR += oscommerce
     SUBDIR += osrm-backend
     SUBDIR += otrs
     SUBDIR += otter-browser
@@ -825,6 +807,7 @@
     SUBDIR += p5-Corona
     SUBDIR += p5-Dancer
     SUBDIR += p5-Dancer-Logger-Log4perl
+    SUBDIR += p5-Dancer-Plugin-CORS
     SUBDIR += p5-Dancer-Plugin-ExtDirect
     SUBDIR += p5-Dancer-Plugin-Feed
     SUBDIR += p5-Dancer-Plugin-FlashMessage
@@ -863,6 +846,7 @@
     SUBDIR += p5-Furl
     SUBDIR += p5-FurlX-Coro
     SUBDIR += p5-Gantry
+    SUBDIR += p5-Gazelle
     SUBDIR += p5-Geo-Caching
     SUBDIR += p5-Google-Search
     SUBDIR += p5-Gtk2-WebKit
@@ -1092,6 +1076,7 @@
     SUBDIR += p5-Net-Amazon-AWIS
     SUBDIR += p5-Net-Async-FastCGI
     SUBDIR += p5-Net-Async-HTTP
+    SUBDIR += p5-Net-Curl
     SUBDIR += p5-Net-FastCGI
     SUBDIR += p5-Net-FireEagle
     SUBDIR += p5-Net-Flickr-API
@@ -1334,6 +1319,7 @@
     SUBDIR += p5-WWW-Spinn3r
     SUBDIR += p5-WWW-TV
     SUBDIR += p5-WWW-TWSMS
+    SUBDIR += p5-WWW-Telegram-BotAPI
     SUBDIR += p5-WWW-TinySong
     SUBDIR += p5-WWW-Tumblr
     SUBDIR += p5-WWW-VenusEnvy
@@ -1368,6 +1354,7 @@
     SUBDIR += p5-WebService-Simple
     SUBDIR += p5-WebService-Technorati
     SUBDIR += p5-WebService-YouTube
+    SUBDIR += p5-Woothee
     SUBDIR += p5-WordPress-XMLRPC
     SUBDIR += p5-Yahoo-Search
     SUBDIR += p5-chklinks
@@ -1437,27 +1424,15 @@
     SUBDIR += pear-XML_GRDDL
     SUBDIR += pear-twig
     SUBDIR += pebble
-    SUBDIR += pecl-amfext
     SUBDIR += pecl-http
-    SUBDIR += pecl-http1
-    SUBDIR += pecl-http2
     SUBDIR += pecl-solr
-    SUBDIR += pecl-sphinx
-    SUBDIR += pecl-swish
-    SUBDIR += pecl-twig
     SUBDIR += pecl-yaf
-    SUBDIR += pecl-yaf2
     SUBDIR += pecl-yar
-    SUBDIR += pecl-yar1
     SUBDIR += perlbal
     SUBDIR += pglogd
     SUBDIR += phalcon
     SUBDIR += photo_gallery
     SUBDIR += php-screw
-    SUBDIR += php-templates
-    SUBDIR += php56-opcache
-    SUBDIR += php56-session
-    SUBDIR += php56-tidy
     SUBDIR += php71-opcache
     SUBDIR += php71-session
     SUBDIR += php71-tidy
@@ -1507,6 +1482,7 @@
     SUBDIR += py-aioh2
     SUBDIR += py-aiohttp
     SUBDIR += py-aiohttp-wsgi
+    SUBDIR += py-aiohttp2
     SUBDIR += py-albatross
     SUBDIR += py-amf
     SUBDIR += py-apachelog
@@ -1536,6 +1512,7 @@
     SUBDIR += py-collective.easytemplate
     SUBDIR += py-collective.templateengines
     SUBDIR += py-cookies
+    SUBDIR += py-css-parser
     SUBDIR += py-cssmin
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
@@ -1921,6 +1898,7 @@
     SUBDIR += qt5-webkit
     SUBDIR += qt5-websockets
     SUBDIR += qt5-websockets-qml
+    SUBDIR += qt5-webview
     SUBDIR += quark
     SUBDIR += qupzilla-qt4
     SUBDIR += qupzilla-qt5
@@ -1928,7 +1906,6 @@
     SUBDIR += radicale
     SUBDIR += radicale2
     SUBDIR += red5
-    SUBDIR += redaxo
     SUBDIR += redmine
     SUBDIR += redmine-a_common_libs
     SUBDIR += redmine-backlogs
@@ -1945,14 +1922,11 @@
     SUBDIR += redmine-single_auth
     SUBDIR += redmine-wiki_notes
     SUBDIR += rejik
-    SUBDIR += rekonq
     SUBDIR += reportmagic
     SUBDIR += repos-style
     SUBDIR += resin3
     SUBDIR += restbed
     SUBDIR += retawq
-    SUBDIR += revive-adserver
-    SUBDIR += rnews
     SUBDIR += roundup
     SUBDIR += rsskit
     SUBDIR += rssowl
@@ -2234,7 +2208,6 @@
     SUBDIR += sabredav
     SUBDIR += sahi
     SUBDIR += sakai
-    SUBDIR += sams2
     SUBDIR += sarg
     SUBDIR += scloader
     SUBDIR += script4rss
@@ -2249,8 +2222,6 @@
     SUBDIR += sfnt2woff
     SUBDIR += shellinabox
     SUBDIR += shttpd
-    SUBDIR += sit
-    SUBDIR += sitebar
     SUBDIR += sitecopy
     SUBDIR += skytemplate
     SUBDIR += slowcgi
@@ -2265,7 +2236,6 @@
     SUBDIR += sogo4
     SUBDIR += sogo4-activesync
     SUBDIR += spawn-fcgi
-    SUBDIR += spdylay
     SUBDIR += spreadlogd
     SUBDIR += sqstat
     SUBDIR += squid
@@ -2294,7 +2264,6 @@
     SUBDIR += tdom
     SUBDIR += template_
     SUBDIR += templatelite
-    SUBDIR += testlink
     SUBDIR += thttpd
     SUBDIR += thumbnail_index
     SUBDIR += thundercache
@@ -2422,7 +2391,6 @@
     SUBDIR += unit-go
     SUBDIR += unit-perl
     SUBDIR += unit-php
-    SUBDIR += usermanager
     SUBDIR += uwsgi
     SUBDIR += uwsgitop
     SUBDIR += uzbl
@@ -2433,7 +2401,6 @@
     SUBDIR += varnish-modules
     SUBDIR += varnish-nagios
     SUBDIR += varnish4
-    SUBDIR += varnish5
     SUBDIR += varnish6
     SUBDIR += vdr-plugin-live
     SUBDIR += vdradmin-am
@@ -2477,6 +2444,7 @@
     SUBDIR += webtrees
     SUBDIR += wgetpaste
     SUBDIR += wikicalc
+    SUBDIR += wml
     SUBDIR += woof
     SUBDIR += wordpress
     SUBDIR += wsdlpull
@@ -2487,7 +2455,6 @@
     SUBDIR += wwwoffle
     SUBDIR += xapian-omega
     SUBDIR += xapian-omega12
-    SUBDIR += xcache
     SUBDIR += xfce4-smartbookmark-plugin
     SUBDIR += xist
     SUBDIR += xombrero

@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	qbittorrent
-DISTVERSION=	4.1.4
+DISTVERSION=	4.1.5
 PORTREVISION=	2
 CATEGORIES=	net-p2p ipv6
 MASTER_SITES=	SF/${PORTNAME}/${PORTNAME}/${PORTNAME}-${PORTVERSION}
@@ -18,7 +18,6 @@ LIB_DEPENDS=	libtorrent-rasterbar.so:net-p2p/libtorrent-rasterbar \
 
 FLAVORS=	default nox
 FLAVOR?=	${FLAVORS:[1]}
-default_LIB_DEPENDS=	libGeoIP.so:net/GeoIP
 nox_PKGNAMESUFFIX=	-nox
 nox_PLIST=		${NONEXISTENT}
 

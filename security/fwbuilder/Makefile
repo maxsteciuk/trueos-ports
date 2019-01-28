@@ -3,6 +3,7 @@
 
 PORTNAME=	fwbuilder
 PORTVERSION=	5.3.7
+PORTREVISION=	2
 DISTVERSIONPREFIX=	v
 CATEGORIES=	security
 
@@ -27,8 +28,9 @@ CONFLICTS=	fwbuilder-[234].* fwbuilder-devel-* \
 USES=		autoreconf:build gmake libtool qmake:no_configure qt:5 ssl
 USE_GITHUB=     yes
 PLIST_SUB=	PORTVERSION=${PORTVERSION}
-USE_QT=		gui \
+USE_QT=		buildtools gui \
 		linguist_build \
+		printsupport \
 		qmake_build \
 		svg \
 		xml

@@ -2,10 +2,10 @@
 # $FreeBSD$
 
 PORTNAME=	netpbm
-DISTVERSION=	10.84.05
+DISTVERSION=	10.85.01
 CATEGORIES=	graphics
 MASTER_SITES=	https://github.com/t6/netpbm/releases/download/v${DISTVERSION}/ \
-		https://gitlab.com/tobiask/netpbm/uploads/d315e060b53cc24d080c8e7463653d85/ \
+		https://gitlab.com/tobiask/netpbm/uploads/2780c2f59fe3a808d2fe37c60ebcbea4/ \
 		LOCAL/tobik
 
 MAINTAINER=	tobik@FreeBSD.org
@@ -52,7 +52,8 @@ TEST_TARGET=	check
 # test fails.  The resulting and intermediary images look fine in
 # spite of this.
 DISABLED_TESTS=	all-in-place tiff-flate-lzw-roundtrip ppmgauss \
-		palm-roundtrip pamtopdbimg ps-alt-roundtrip
+		palm-roundtrip pamtopdbimg ps-alt-roundtrip \
+		pammixmulti-identity
 
 OPTIONS_DEFAULT=	MANPAGES PERL
 OPTIONS_DEFINE=	MANPAGES PERL STATIC SVGTOPAM X11

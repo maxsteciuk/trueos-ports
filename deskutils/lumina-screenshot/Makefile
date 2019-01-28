@@ -4,12 +4,14 @@
 PORTNAME=	lumina-screenshot
 PORTVERSION=	1.4.2
 PORTREVISION=	201803131031
+PORTREVISION=	2
 CATEGORIES=	deskutils
 
 MAINTAINER=	jt@ixsystems.com
 COMMENT=	Screenshot utility from the Lumina Desktop
 
 LICENSE=	BSD3CLAUSE
+LICENSE_FILE=	${WRKSRC}/../../../LICENSE
 
 CONFLICTS_INSTALL=	lumina-1.2.*
 

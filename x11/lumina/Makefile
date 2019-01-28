@@ -20,7 +20,7 @@ RUN_DEPENDS=	lumina-core>=0:x11/lumina-core \
 		lumina-mediaplayer>=0:deskutils/lumina-mediaplayer \
 		lumina-pdf>=0:deskutils/lumina-pdf \
 		lumina-screenshot>=0:deskutils/lumina-screenshot \
-		lumina-textedit>=0:deskutils/lumina-textedit 
+		lumina-textedit>=0:deskutils/lumina-textedit
 
 CONFLICTS_INSTALL=	lumina-1.2.*
 

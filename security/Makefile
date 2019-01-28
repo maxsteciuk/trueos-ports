@@ -48,7 +48,6 @@
     SUBDIR += belier
     SUBDIR += bfbtester
     SUBDIR += binwalk
-    SUBDIR += bitwarden-ruby
     SUBDIR += blindelephant
     SUBDIR += boringssl
     SUBDIR += botan110
@@ -62,6 +61,7 @@
     SUBDIR += bugs
     SUBDIR += bzrtp
     SUBDIR += ca_root_nss
+    SUBDIR += caesarcipher
     SUBDIR += calife
     SUBDIR += cardpeek
     SUBDIR += cargo-audit
@@ -175,6 +175,7 @@
     SUBDIR += gcr
     SUBDIR += git-crypt
     SUBDIR += git-remote-gcrypt
+    SUBDIR += git-secret
     SUBDIR += gnome-keyring
     SUBDIR += gnome-keyring-sharp
     SUBDIR += gnome-password-generator
@@ -185,6 +186,7 @@
     SUBDIR += gnutls
     SUBDIR += go-cve-dictionary
     SUBDIR += go.crypto
+    SUBDIR += gonepass
     SUBDIR += gopass
     SUBDIR += goptlib
     SUBDIR += gorilla
@@ -303,7 +305,6 @@
     SUBDIR += keyprint
     SUBDIR += kf5-kdesu
     SUBDIR += kgpg
-    SUBDIR += kgpg-kde4
     SUBDIR += kickpass
     SUBDIR += klee
     SUBDIR += kleopatra
@@ -314,15 +315,14 @@
     SUBDIR += kqoauth
     SUBDIR += kr
     SUBDIR += krb5
-    SUBDIR += krb5-114
     SUBDIR += krb5-115
     SUBDIR += krb5-116
+    SUBDIR += krb5-117
     SUBDIR += krb5-appl
     SUBDIR += krb5-devel
     SUBDIR += kripp
     SUBDIR += kstart
     SUBDIR += kwalletmanager
-    SUBDIR += kwalletmanager-kde4
     SUBDIR += l0pht-watch
     SUBDIR += l0phtcrack
     SUBDIR += l5
@@ -822,7 +822,6 @@
     SUBDIR += pear-LiveUser_Admin
     SUBDIR += pear-Net_Portscan
     SUBDIR += pear-Text_Password
-    SUBDIR += pecl-crack
     SUBDIR += pecl-crypto
     SUBDIR += pecl-gnupg
     SUBDIR += pecl-krb5
@@ -831,16 +830,11 @@
     SUBDIR += pecl-pam
     SUBDIR += pecl-scrypt
     SUBDIR += pecl-ssh2
-    SUBDIR += pecl-ssh2-0
+    SUBDIR += peda
     SUBDIR += pev
     SUBDIR += pgpdump
     SUBDIR += pgpgpg
     SUBDIR += pgpin
-    SUBDIR += php-suhosin
-    SUBDIR += php56-filter
-    SUBDIR += php56-hash
-    SUBDIR += php56-mcrypt
-    SUBDIR += php56-openssl
     SUBDIR += php71-filter
     SUBDIR += php71-hash
     SUBDIR += php71-mcrypt
@@ -853,7 +847,6 @@
     SUBDIR += php73-hash
     SUBDIR += php73-openssl
     SUBDIR += php73-sodium
-    SUBDIR += phpdeadlock
     SUBDIR += phpsecinfo
     SUBDIR += pidentd
     SUBDIR += pidgin-encryption
@@ -1019,6 +1012,8 @@
     SUBDIR += py-pysaml2
     SUBDIR += py-pyscard
     SUBDIR += py-pysha3
+    SUBDIR += py-python-axolotl
+    SUBDIR += py-python-axolotl-curve25519
     SUBDIR += py-python-gnupg
     SUBDIR += py-python-jose
     SUBDIR += py-python-nss
@@ -1289,7 +1284,6 @@
     SUBDIR += stud
     SUBDIR += stunnel
     SUBDIR += subversion-gnome-keyring
-    SUBDIR += subversion-kwallet
     SUBDIR += subweb
     SUBDIR += sudo
     SUBDIR += sudoscript
@@ -1360,6 +1354,7 @@
     SUBDIR += ykclient
     SUBDIR += ykpers
     SUBDIR += yubico-piv-tool
+    SUBDIR += yubikey-manager-qt
     SUBDIR += yubikey-personalization-gui
     SUBDIR += yubikey-piv-manager
     SUBDIR += yubioath-desktop
