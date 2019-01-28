@@ -1,0 +1,31 @@
+--- Makefile.in.orig	2019-01-13 21:13:01.713269000 -0500
++++ Makefile.in	2019-01-13 21:23:11.115304000 -0500
+@@ -4,7 +4,7 @@
+ LDFLAGS = @LDFLAGS@ @LIBS@
+ OBS= bandwidthd.o graph.o conf.tab.o conf.l.o
+ 
+-CFLAGS= -Wall @CFLAGS@ @CPPFLAGS@ @DEFS@ -DINSTALL_DIR="\"$(exec_prefix)/bandwidthd\""
++CFLAGS= -Wall @CFLAGS@ @CPPFLAGS@ @DEFS@ -DINSTALL_DIR="\"$(exec_prefix)/etc/bandwidthd\""
+ NONWALLCFLAGS= @CFLAGS@ @CPPFLAGS@ @DEFS@
+ 
+ # Debugging stuff
+@@ -38,12 +38,13 @@
+ 	rm -f conf.tab.c conf.tab.h conf.l.c config.h.in configure 
+ 
+ install: all
+-	@INSTALL@ -d $(DESTDIR)$(exec_prefix)/bandwidthd/etc
+-	@INSTALL@ -d $(DESTDIR)$(exec_prefix)/bandwidthd/htdocs
+-	@INSTALL@ -m755 -s bandwidthd $(DESTDIR)$(exec_prefix)/bandwidthd	
+-	@INSTALL@ -m644 etc/bandwidthd.conf $(DESTDIR)$(exec_prefix)/bandwidthd/etc/bandwidthd.conf.sample
+-	@INSTALL@ -m644 htdocs/legend.gif $(DESTDIR)$(exec_prefix)/bandwidthd/htdocs
+-	@INSTALL@ -m644 htdocs/logo.gif $(DESTDIR)$(exec_prefix)/bandwidthd/htdocs
++	@INSTALL@ -d $(DESTDIR)$(exec_prefix)/etc/bandwidthd
++	@INSTALL@ -d $(DESTDIR)$(exec_prefix)/share/bandwidthd
++	@INSTALL@ -d $(DESTDIR)$(exec_prefix)/share/bandwidthd/htdocs
++	@INSTALL@ -m755 -s bandwidthd $(DESTDIR)$(exec_prefix)/bin
++	@INSTALL@ -m644 etc/bandwidthd.conf $(DESTDIR)$(exec_prefix)/etc/bandwidthd/bandwidthd.conf.sample
++	@INSTALL@ -m644 htdocs/legend.gif $(DESTDIR)$(exec_prefix)/share/bandwidthd/htdocs
++	@INSTALL@ -m644 htdocs/logo.gif $(DESTDIR)$(exec_prefix)/share/bandwidthd/htdocs
+ 
+ #**** Stuff where -WALL is turned off to reduce the noise in a compile so I can see my own errors *******************
+ conf.l.o: conf.l.c
